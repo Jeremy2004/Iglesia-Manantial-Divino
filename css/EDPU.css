@@ -1,7 +1,8 @@
 h3{
 display:inline-block; 
 position:relative;
-color: aqua;
+color: white;
+
 }
 h3::after,h3::before{
 content: '';
@@ -18,10 +19,16 @@ h3::after{
     right: -140px;
 }
 
-span.card-title{
-    background:#eeeff15e;
+.TransparentBackGround{
+    background:rgb(116, 200, 234,0.5);
     width: 100%;
     max-width: 1280px;
+    margin-top: 60px;
+}
+.FullTransparentBackGround{
+    background:rgb(116, 200, 234,0.5);
+    width: 100%;
+    max-width: 100%;
     margin-top: 60px;
 }
 .transparencia{
@@ -31,3 +38,82 @@ span.card-title{
     margin-top: 60px;
     margin-left: 25%;
 }
+
+.degradadoAzulAmarillo{
+    background: rgb(116,200,234);
+    background: linear-gradient(90deg, rgba(116,200,234,1) 35%, rgba(255,218,150,1) 100%);
+}
+.degradadoAzulBlancoAmarillo{
+    background: rgb(116,200,234);
+background: linear-gradient(90deg, rgba(116,200,234,1) 4%, rgba(255,255,255,1) 28%, rgba(255,218,150,1) 100%);
+}
+.degradadoAmarilloBlancoAzul{
+    background: rgb(255,218,150);
+background: linear-gradient(90deg, rgba(255,218,150,1) 4%, rgba(255,255,255,1) 28%, rgba(116,200,234,1) 100%);
+}
+.degradadoAmarilloAzul{
+    background: rgb(255,218,150);
+background: linear-gradient(90deg, rgba(255,218,150,1) 4%, rgba(116,200,234,1) 100%);
+}
+.amarillo{
+background-color: rgba(255,218,150,1);
+}
+.azul{
+    background-color: rgba(116,200,234,1);
+}
+@font-face {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+}
+body{
+    font-family: 'Montserrat';
+}
+.Bold{
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.Boldx2{
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+.TextoSobreImagen{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-field label {
+    color: #4b4b4b;
+  }
+  .input-field input[type=text]:focus + label {
+    color: #74c8ea;
+  }
+/* label underline focus color */
+.input-field input[type=text]:focus {
+border-bottom: 1px solid  #74c8ea;
+box-shadow: 0 1px 0 0 #74c8ea;
+}
+   /* valid color */
+   .input-field input[type=text].valid {
+    border-bottom: 1px solid  #74c8ea;
+    box-shadow: 0 1px 0 0 #74c8ea;
+  }
+  .input-field .prefix.active {
+    color: #74c8ea;
+  }
+  .Post {
+    position: relative;
+  }
+  .image-post{
+    width: 125% ; height: 125%;
+  }
+  /* Bottom right text */
+  .text-post {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
