@@ -62,17 +62,21 @@ background-color: rgba(255,218,150,1);
     background-color: rgba(116,200,234,1);
 }
 @font-face {
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
-}
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;100;700;900&display=swap');}
 body{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+
+}
+.Thin{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 50;
 }
 .Bold{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 .Boldx2{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
 .TextoSobreImagen{
@@ -117,3 +121,11 @@ box-shadow: 0 1px 0 0 #74c8ea;
     padding-left: 20px;
     padding-right: 20px;
   }
+ .TituloSeccion {
+    letter-spacing: 5px;
+    font-size: 1000%;
+    color: #747070;
+    line-height: 0.001;
+
+
+}
