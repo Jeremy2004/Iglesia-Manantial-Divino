@@ -126,6 +126,9 @@ box-shadow: 0 1px 0 0 #74c8ea;
     font-size: 1000%;
     color: #747070;
     line-height: 0.001;
+    
 
-
+}
+ul li a{
+    color: #4b4b4b;
 }
