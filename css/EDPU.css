@@ -1,4 +1,4 @@
-h3{
+/*h3{
 display:inline-block; 
 position:relative;
 color: white;
@@ -17,8 +17,14 @@ h3::before{
 }
 h3::after{
     right: -140px;
+}*/
+.img-radius{
+    border-radius: 25px;
+    border: 2px solid rgb(255,218,150);
+    padding: 5px;
+    width: 200px;
+    height: 150px;
 }
-
 .TransparentBackGround{
     background:rgb(116, 200, 234,0.5);
     width: 100%;
