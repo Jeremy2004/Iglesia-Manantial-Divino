@@ -152,3 +152,8 @@ box-shadow: 0 1px 0 0 #74c8ea;
  margin-bottom: 0px; 
  margin-top: 20px;
   }
+  ::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+
+}
