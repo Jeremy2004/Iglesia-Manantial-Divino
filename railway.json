@@ -1,0 +1,9 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  
+  "deploy": {
+    "startCommand": "index.html",
+    "healthcheckPath": "/",
+    "healthcheckTimeout": 100
+    }
+}
